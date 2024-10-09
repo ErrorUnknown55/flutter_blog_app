@@ -2,5 +2,5 @@ import 'package:flutter/material.dart';
 import 'package:flutter_blog_app/scr/app.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
