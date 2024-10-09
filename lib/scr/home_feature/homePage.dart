@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_blog_app/scr/blog_feature/blogPage.dart';
+import 'package:flutter_blog_app/scr/profile_feature/profilePage.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -13,7 +14,7 @@ class _HomePageState extends State<HomePage> {
 
   static const List<Widget> _widgetOptions = <Widget>[
     BlogPage(),
-    BlogPage(),
+    ProfilePage(),
   ];
 
   void _onItemTapped(int index) {
