@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_blog_app/scr/add_post_feature/addPostPage.dart';
 import 'package:flutter_blog_app/scr/blog_feature/blogPage.dart';
 import 'package:flutter_blog_app/scr/profile_feature/profilePage.dart';
 
@@ -14,6 +15,7 @@ class _HomePageState extends State<HomePage> {
 
   static const List<Widget> _widgetOptions = <Widget>[
     BlogPage(),
+    AddPostPage(),
     ProfilePage(),
   ];
 
@@ -34,6 +36,10 @@ class _HomePageState extends State<HomePage> {
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             label: 'Home',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.add),
+            label: 'Add Post',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
